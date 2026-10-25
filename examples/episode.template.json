@@ -1,0 +1,22 @@
+{
+  "episode_id": "example_documentary",
+  "title": "Replace with a verified episode title",
+  "summary": "Replace with a sourced episode summary.",
+  "packaging_check": "Record title, description and thumbnail claim checks.",
+  "voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-2%",
+  "sources": [
+    {"id": "s1", "url": "https://example.org/original-source", "title": "Replace", "publisher": "Replace", "date": "undated", "retrieved": "YYYY-MM-DD", "source_type": "primary", "excerpt": "Save actual source passage.", "snapshot": "research/source_01.txt"}
+  ],
+  "claims": [
+    {"id": "c1", "text": "Replace with a supported observation.", "classification": "documented", "source_ids": ["s1"], "support": "Explain exactly how the source supports the claim.", "status": "unchecked"}
+  ],
+  "beats": [
+    {"id": 1, "text": "Replace with narration grounded in c1.", "claim_ids": ["c1"], "scene": "Describe a truthful explanatory diagram.", "visual_kind": "diagram", "asset_id": "a1"}
+  ],
+  "assets": [
+    {"id": "a1", "file": "assets/diagram_01.png", "kind": "diagram", "credit": "Your name; based on source s1", "description": "Replace with actual diagram description.", "subject_check": "Record scene and source-value review.", "creation_notes": "Record how this original diagram uses verified evidence."}
+  ],
+  "chapters": [{"beat": 1, "title": "The question"}],
+  "watch_next": []
+}

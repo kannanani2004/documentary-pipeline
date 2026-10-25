@@ -1,0 +1,34 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+client_secret*.json
+*token*.json
+# Environments, caches, installed dependencies and local checks
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.local/
+tools/vendor/
+# Private production data and large media
+episodes/
+analytics/
+models/
+outputs/
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.safetensors
+*.bin
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
